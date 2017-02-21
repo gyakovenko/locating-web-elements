@@ -14,12 +14,19 @@ public class NestleTest extends BasicTest {
 		super("http://nestleusa.com");
 	}
 
-	@Test
-	public void searchNestleSiteTest() throws InterruptedException {
+	@DataProvider
+	public Object[][] dp() {
+		return new Object[][] { new Object[] { "chocolate" }, new Object[] { "kduhsldfjhslkdfjsd" },
+				new Object[] { "isha" }, new Object[] { "pepper" } };
+	}
+
+	@Test(dataProvider = "dp")
+	public void searchNestleSiteTest(String item) throws InterruptedException {
 		NestleHomePage homepage = new NestleHomePage(getDriver());
-		this.getLogger().info("Running test");
-		homepage.searchForItem("chocolate");
-		homepage.takeScreenshot("Nestle Search for Chocolate");
+		this.getLogger().info("Running test: search " + item);
+		SearchResultsPage searchResultsPage = homepage.searchForItem(item);
+		homepage.takeScreenshot(item + " search screenshot");
+		searchResultsPage.logNumberOfResults(item);
 		Thread.sleep(5000);
 	}
 

@@ -16,12 +16,11 @@ public class NestleHomePage extends BasicPage {
 		super(driver);
 	}
 
-	public void searchForItem(String item) {
+	public SearchResultsPage searchForItem(String item) {
 		this.searchField.clear();
 		this.searchField.sendKeys(item);
 		this.searchButton.click();
-		// getDriver().findElement(By.id("s2id_autogen1")).sendKeys("chocolate");
-		// getDriver().findElement(By.id("btnSearch")).click();
+		return new SearchResultsPage(getDriver());
 	}
 
 }

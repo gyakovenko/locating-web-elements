@@ -1,0 +1,57 @@
+2017-02-04 16:57:27 INFO  BasicTest:27 - Created a BasicTest object through constructor
+2017-02-04 16:57:30 INFO  BasicTest:27 - Created a BasicTest object through constructor
+2017-02-04 16:57:32 INFO  BasicTest:26 - Running test: search chocolate
+2017-02-04 16:57:34 INFO  BasicTest:26 - Search results for chocolate: 136
+2017-02-04 16:57:35 INFO  BasicTest:26 - Running test: search chocolate
+2017-02-04 16:57:37 INFO  BasicTest:26 - Search results for chocolate: 136
+2017-02-04 16:57:43 INFO  BasicTest:26 - Running test: search kduhsldfjhslkdfjsd
+2017-02-04 16:57:44 INFO  BasicTest:26 - Search results for kduhsldfjhslkdfjsd: 
+2017-02-04 16:57:46 INFO  BasicTest:26 - Running test: search kduhsldfjhslkdfjsd
+2017-02-04 16:57:48 INFO  BasicTest:26 - Search results for kduhsldfjhslkdfjsd: 
+2017-02-04 16:57:52 INFO  BasicTest:26 - Running test: search isha
+2017-02-04 16:57:53 INFO  BasicTest:26 - Search results for isha: 
+2017-02-04 16:57:56 INFO  BasicTest:26 - Running test: search isha
+2017-02-04 16:57:57 INFO  BasicTest:26 - Search results for isha: 
+2017-02-04 16:58:01 INFO  BasicTest:26 - Running test: search galina
+2017-02-04 16:58:03 INFO  BasicTest:26 - Search results for galina: 
+2017-02-04 16:58:07 INFO  BasicTest:26 - Running test: search galina
+2017-02-04 16:58:08 INFO  BasicTest:26 - Search results for galina: 
+2017-02-04 17:01:08 INFO  BasicTest:27 - Created a BasicTest object through constructor
+2017-02-04 17:01:11 INFO  BasicTest:26 - Running test: search chocolate
+2017-02-04 17:01:13 INFO  BasicTest:26 - Search results for chocolate: 136
+2017-02-04 17:01:21 INFO  BasicTest:26 - Running test: search kduhsldfjhslkdfjsd
+2017-02-04 17:01:44 INFO  BasicTest:26 - Search results for kduhsldfjhslkdfjsd: 
+2017-02-04 17:01:52 INFO  BasicTest:26 - Running test: search isha
+2017-02-04 17:01:54 INFO  BasicTest:26 - Search results for isha: 
+2017-02-04 17:02:02 INFO  BasicTest:26 - Running test: search pepper
+2017-02-04 17:02:04 INFO  BasicTest:26 - Search results for pepper: 19
+2017-02-04 17:03:19 INFO  BasicTest:27 - Created a BasicTest object through constructor
+2017-02-04 17:03:23 INFO  BasicTest:26 - Running test: search chocolate
+2017-02-04 17:03:25 INFO  BasicTest:26 - Search results for chocolate: 136
+2017-02-04 17:03:33 INFO  BasicTest:26 - Running test: search kduhsldfjhslkdfjsd
+2017-02-04 17:03:34 INFO  BasicTest:26 - Search results for kduhsldfjhslkdfjsd: 
+2017-02-04 17:03:42 INFO  BasicTest:26 - Running test: search isha
+2017-02-04 17:03:44 INFO  BasicTest:26 - Search results for isha: 
+2017-02-04 17:14:06 INFO  BasicTest:27 - Created a BasicTest object through constructor
+2017-02-04 17:14:10 INFO  BasicTest:26 - Running test: search chocolate
+2017-02-04 17:14:12 INFO  BasicTest:27 - Search results for chocolate: 136
+2017-02-04 17:14:20 INFO  BasicTest:26 - Running test: search kduhsldfjhslkdfjsd
+2017-02-04 17:14:22 INFO  BasicTest:27 - Search results for kduhsldfjhslkdfjsd: 
+2017-02-04 17:16:02 INFO  BasicTest:27 - Created a BasicTest object through constructor
+2017-02-04 17:16:06 INFO  BasicTest:26 - Running test: search chocolate
+2017-02-04 17:16:08 INFO  BasicTest:30 - Search results for chocolate: NONE
+2017-02-04 17:16:16 INFO  BasicTest:26 - Running test: search kduhsldfjhslkdfjsd
+2017-02-04 17:16:18 INFO  BasicTest:27 - Search results for kduhsldfjhslkdfjsd: 
+2017-02-04 17:16:26 INFO  BasicTest:26 - Running test: search isha
+2017-02-04 17:16:27 INFO  BasicTest:27 - Search results for isha: 
+2017-02-04 17:16:35 INFO  BasicTest:26 - Running test: search pepper
+2017-02-04 17:16:37 INFO  BasicTest:30 - Search results for pepper: NONE
+2017-02-04 17:18:01 INFO  BasicTest:27 - Created a BasicTest object through constructor
+2017-02-04 17:18:05 INFO  BasicTest:26 - Running test: search chocolate
+2017-02-04 17:18:07 INFO  BasicTest:27 - Search results for chocolate: 136
+2017-02-04 17:18:15 INFO  BasicTest:26 - Running test: search kduhsldfjhslkdfjsd
+2017-02-04 17:18:16 INFO  BasicTest:30 - Search results for kduhsldfjhslkdfjsd: NONE
+2017-02-04 17:18:24 INFO  BasicTest:26 - Running test: search isha
+2017-02-04 17:18:25 INFO  BasicTest:30 - Search results for isha: NONE
+2017-02-04 17:18:33 INFO  BasicTest:26 - Running test: search pepper
+2017-02-04 17:18:35 INFO  BasicTest:27 - Search results for pepper: 19

@@ -21,6 +21,27 @@ public class BasicPage {
 															// THIS logger.
 	}
 
+
+	public WebDriver getDriver() {
+		return this.driver;
+	}
+
+	public Logger getLogger() {
+		return this.logger;
+	}
+
+	public boolean isElementPresent(By by) {
+		return AutoBasics.isElementPresent(getDriver(), by);
+	}
+
+	public void setDriver(WebDriver driver) {
+		this.driver = driver;
+	}
+
+	public void setLogger(Logger logger) {
+		this.logger = logger;
+	}
+
 	public boolean takeScreenshot() {
 		return AutoBasics.takesScreenshot(this.driver, "screenshot");
 	}

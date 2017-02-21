@@ -1,21 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10513" started-at="2017-02-04T23:38:47Z" finished-at="2017-02-04T23:38:58Z">
+  <suite name="Default suite" duration-ms="38690" started-at="2017-02-05T01:18:01Z" finished-at="2017-02-05T01:18:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10513" started-at="2017-02-04T23:38:47Z" finished-at="2017-02-04T23:38:58Z">
+    <test name="Default test" duration-ms="38690" started-at="2017-02-05T01:18:01Z" finished-at="2017-02-05T01:18:40Z">
       <class name="com.sqa.gy.nestle.NestleTest">
-        <test-method status="PASS" signature="setUpChrome()[pri:0, instance:com.sqa.gy.nestle.NestleTest@23049065]" name="setUpChrome" is-config="true" duration-ms="3348" started-at="2017-02-04T15:38:47Z" finished-at="2017-02-04T15:38:50Z">
+        <test-method status="PASS" signature="setUpChrome()[pri:0, instance:com.sqa.gy.nestle.NestleTest@5c704f33]" name="setUpChrome" is-config="true" duration-ms="3289" started-at="2017-02-04T17:18:01Z" finished-at="2017-02-04T17:18:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpChrome -->
-        <test-method status="PASS" signature="searchNestleSiteTest()[pri:0, instance:com.sqa.gy.nestle.NestleTest@23049065]" name="searchNestleSiteTest" duration-ms="7039" started-at="2017-02-04T15:38:50Z" finished-at="2017-02-04T15:38:57Z">
+        <test-method status="PASS" signature="searchNestleSiteTest(java.lang.String)[pri:0, instance:com.sqa.gy.nestle.NestleTest@5c704f33]" name="searchNestleSiteTest" duration-ms="7047" started-at="2017-02-04T17:18:05Z" data-provider="dp" finished-at="2017-02-04T17:18:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chocolate]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchNestleSiteTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sqa.gy.nestle.NestleTest@23049065]" name="tearDown" is-config="true" duration-ms="96" started-at="2017-02-04T15:38:57Z" finished-at="2017-02-04T15:38:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sqa.gy.nestle.NestleTest@5c704f33]" name="tearDown" is-config="true" duration-ms="119" started-at="2017-02-04T17:18:12Z" finished-at="2017-02-04T17:18:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpChrome()[pri:0, instance:com.sqa.gy.nestle.NestleTest@5c704f33]" name="setUpChrome" is-config="true" duration-ms="2793" started-at="2017-02-04T17:18:12Z" finished-at="2017-02-04T17:18:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpChrome -->
+        <test-method status="PASS" signature="searchNestleSiteTest(java.lang.String)[pri:0, instance:com.sqa.gy.nestle.NestleTest@5c704f33]" name="searchNestleSiteTest" duration-ms="6408" started-at="2017-02-04T17:18:15Z" data-provider="dp" finished-at="2017-02-04T17:18:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kduhsldfjhslkdfjsd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchNestleSiteTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sqa.gy.nestle.NestleTest@5c704f33]" name="tearDown" is-config="true" duration-ms="87" started-at="2017-02-04T17:18:21Z" finished-at="2017-02-04T17:18:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpChrome()[pri:0, instance:com.sqa.gy.nestle.NestleTest@5c704f33]" name="setUpChrome" is-config="true" duration-ms="2652" started-at="2017-02-04T17:18:21Z" finished-at="2017-02-04T17:18:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpChrome -->
+        <test-method status="PASS" signature="searchNestleSiteTest(java.lang.String)[pri:0, instance:com.sqa.gy.nestle.NestleTest@5c704f33]" name="searchNestleSiteTest" duration-ms="6419" started-at="2017-02-04T17:18:24Z" data-provider="dp" finished-at="2017-02-04T17:18:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[isha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchNestleSiteTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sqa.gy.nestle.NestleTest@5c704f33]" name="tearDown" is-config="true" duration-ms="128" started-at="2017-02-04T17:18:30Z" finished-at="2017-02-04T17:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpChrome()[pri:0, instance:com.sqa.gy.nestle.NestleTest@5c704f33]" name="setUpChrome" is-config="true" duration-ms="2656" started-at="2017-02-04T17:18:30Z" finished-at="2017-02-04T17:18:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpChrome -->
+        <test-method status="PASS" signature="searchNestleSiteTest(java.lang.String)[pri:0, instance:com.sqa.gy.nestle.NestleTest@5c704f33]" name="searchNestleSiteTest" duration-ms="6941" started-at="2017-02-04T17:18:33Z" data-provider="dp" finished-at="2017-02-04T17:18:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pepper]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchNestleSiteTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sqa.gy.nestle.NestleTest@5c704f33]" name="tearDown" is-config="true" duration-ms="100" started-at="2017-02-04T17:18:40Z" finished-at="2017-02-04T17:18:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
